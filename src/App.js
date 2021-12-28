@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import SignUp from "./pages/SignupPage";
 import PricingPage from "./pages/PricingPage";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/pricing" element={<PricingPage />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };
