@@ -21,7 +21,7 @@ import { data } from "../../data/NavbarData";
 const Navbar = () => {
   const [show, setShow] = useState(false);
 
-  let Navigate = useNavigate();
+  let navigate = useNavigate();
   let location = useLocation();
 
   const handleClick = () => {
@@ -41,7 +41,7 @@ const Navbar = () => {
       scrollTo(id);
     }
 
-    Navigate.push(to);
+    navigate(to);
     setShow(false);
   };
 
