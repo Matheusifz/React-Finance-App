@@ -4,7 +4,7 @@ import GlobalStyle from "./globalStyles";
 
 import Home from "./pages/Home";
 import SignUp from "./pages/SignupPage";
-import Pricing from "./pages/PricingPage";
+import PricingPage from "./pages/PricingPage";
 import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/signup" element={<SignUp />} />
-        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/pricing" element={<PricingPage />} />
       </Routes>
     </Router>
   );
