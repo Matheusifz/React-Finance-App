@@ -13,7 +13,7 @@ import {
 const Hero = () => {
   return (
     <HeroSection>
-      <HeroVideo src="./assets/hero.mp4" autoPlay muted></HeroVideo>
+      <HeroVideo src="./assets/hero.mp4" autoPlay muted loop></HeroVideo>
       <Container>
         <MainHeading>Your data is secure with us</MainHeading>
         <HeroText>
